@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="Oct12.css">
+    <style>
+       .anime1{
+           background-color: rgb(250, 151, 201);
+           /* opacity: 0.5; */
+           height: 100vh;
+    
+       }
+        .form1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+           padding: 10%;
+           
+           
+        }
+        .email{
+            margin: 33px;
+            color: rgb(0, 0, 0);
+            z-index: 1;
+        }
+        .name{
+            margin: 33px;
+          /* color: #FF6600; */
+          z-index: 1;
+          color: rgb(0, 0, 0);
+        }
+        .chkbox{
+            margin: 33px;
+            color: rgb(0, 0, 0);
+            z-index: 1;
+        }
+        .btn{
+            margin: 33px;
+            z-index: 1;
+            
+            
+        }
+        .file{
+            margin: 33px;
+            color: rgb(0, 0, 0);
+            z-index: 1;
+        }
+   
+        input[type="Name"]{
+        /* background-color: rgb(245, 136, 59); */
+        
+        transition-property: all;
+        transition-duration: 1s;
+        transition-timing-function: ease-in-out;
+        height: 20px;
+        width: 170px;
+        background-color: transparent;
+        border: 3px solid #00FFFF;
+        border-radius: 10px;
+       
+        
+    }
+    input[type="Name"]:hover{
+        height: 40px;
+        width: 300px;
+        /* background-color: rgb(209, 179, 124); */
+        font-weight: bold;
+        /* font-color: brown; */
+        border: 3px solid #CC00FF;
+
+
+    }
+    input[type="email"]{
+        /* background-color: rgb(245, 136, 59); */
+        color: whitesmoke;
+        transition-property: all;
+        transition-duration: 1s;
+        transition-timing-function: ease-in-out;
+        height: 20px;
+        width: 170px;
+        border: 3px solid #00FFFF;
+        background-color: transparent;
+        border-radius: 10px;
+        z-index: 1;
+        
+    }
+    input[type="email"]:hover{
+        height: 40px;
+        width: 300px;
+        /* background-color: rgb(209, 179, 124); */
+        font-weight: bold;
+        /* font-color: brown; */
+        border: 3px solid #CC00FF;
+
+
+
+    }
+    input[type="button"]{
+        /* background-color: rgb(245, 136, 59); */
+        color: whitesmoke;
+        transition-property: all;
+        transition-duration: 1s;
+        transition-timing-function: ease-in-out;
+        height: 30px;
+        width: 50px;
+        border: 3px solid #00FFFF;
+        background-color: black;
+        border-radius: 10px;
+        z-index: 1;
+    }
+    input[type="button"]:hover{
+        height: 40px;
+        width: 300px;
+        /* background-color: rgb(209, 179, 124); */
+        font-weight: bold;
+        /* font-color: brown; */
+        border: 3px solid #CC00FF;
+
+
+    }
+      
+       
+    </style>
+</head>
+<body>
+
+<div class="anime1">
+  <div class="scene">
+    <div class="upper">
+      <div class="moon">
+        <div class="crater1"></div>
+        <div class="crater2"></div>
+      </div>
+      <div class="star1"></div>
+      <div class="star2"></div>
+      <div class="star3"></div>
+      <div class="cloud1">
+        <div class="circle"></div>
+        <div class="filler"></div>
+      </div>
+      <div class="cloud2">
+        <div class="circle"></div>
+        <div class="filler"></div>
+      </div>
+      <div class="tail">
+        <div class="left"></div>
+        <div class="right"></div>
+        <div class="body"></div>
+      </div>
+
+      <div class="drop"></div>
+
+    </div>
+    <div class="lower">
+      <div class="whale">
+        <div class="eye"></div>
+        <div class="detail1">
+          <div class="detail2"></div>
+        </div>
+
+      </div>
+      <div class="fin"></div>
+    </div>
+  </div>
+
+
+
+
+
+    <div class="container">
+        <form action="#" class="form1">
+            
+            <div class="name">
+                Name: <input type="Name" placeholder="Your Name">
+        </div>
+        <div class="email">
+            Email Id: <input type="email" placeholder="Your Email Id">
+        </div>
+        <div class="file">
+             Upload the document: <input type="file" name="file" id="">  
+            </div>    
+            <div class="mssg">
+            </div>
+        <div class="chkbox">
+            <input type="checkbox" name="login" id="login1" class="form" checked>Keep me logged in
+        </div>
+
+        <div class="btn">
+           <input type="button" value="Login" style=" color: #50BFE6;">
+        </div>
+        </form>
+    </div>
+    
+
+    </div>
+
+
+  
+
+
+
+
+    
+</body>
+</html>
